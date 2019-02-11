@@ -1,0 +1,216 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #393c40;
+    color: #ffffff;
+}
+
+body.light .callout {
+    color: #0a0a0a;
+}
+
+body.light .mbox, body.light .reveal {
+    background-color: #f3f3f3;
+}
+
+
+body.light .syntaxbox {
+    background-color: #eaeaea;
+}
+
+body.light {
+    background-color: #fefefe; 
+    color: #0a0a0a;
+}
+
+body.light label {
+    color: #0a0a0a;
+}
+
+body.light .help-text {
+    color: #0a0a0a;
+}
+
+body.light input[type=number] {
+    border-color: #999;
+}
+
+body:not(.light) input[type="number"],
+body:not(.light) select,
+body:not(.light) .input-group-label,
+body:not(.light) div.syntaxbox,
+body:not(.light) textarea {
+    background-color: rgba(0,0,0,.1);
+    color: #ffffff;
+}
+
+body:not(.light) [type=text]:focus {
+    background-color: rgba(0,0,0,.1);
+}
+
+body:not(.light) select option {
+    background-color: #313339;
+}
+
+
+
+.top-bar {
+    padding: 0;
+    background-color: #DB9C05;
+}
+
+.top-bar ul {
+    color: #ffffff;
+    background-color: #DB9C05;
+}
+
+.top-bar ul a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: .8;
+    padding: 1.15rem 1rem;
+}
+
+.top-bar ul > :not(.menu-text) :hover {
+    opacity: 1;
+}
+
+.row {
+    max-width: 50rem;
+}
+
+.bottomcenter {
+    width: 54%;
+    margin: auto;
+}
+
+.syntaxbox {
+    width: 27rem;
+    min-height: 5.1rem;
+    border-radius: 0.1875rem;
+}
+
+#syntax::-webkit-scrollbar { 
+    display: none; 
+}
+
+#syntax {
+    padding-top: 0.3rem;
+    word-wrap: break-word;
+}
+
+.syntax-text {
+    font-family: monospace;
+    font-weight: 400;
+    color: rgba(255,255,255,.8);
+}
+
+input:required:invalid, textarea:required:invalid {
+    border-color: #ff0000;
+}
+
+input[type="number"] {
+    height: 1.9rem;
+    min-width: 1.7rem;
+    font-size: 0.875rem;
+    border-radius: 0.1875rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    input[type="number"] {
+        height: 2.4375rem;
+        font-size: 1rem;
+    }
+}
+
+label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.help-text {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255,255,255,.8);
+}
+
+
+.button {
+    background-color: #DB9C05;
+    border-radius: 0.1875rem;
+    font-family: inherit;
+    font-weight: 400;
+    color: #333;
+}
+
+.cb-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.75rem;
+    line-height: 0;
+    height: 1rem;
+}
+
+.button:focus, .button:hover {
+    background-color: #c78300;
+    color: #000;
+}
+
+/* SPECIFIC FOR RECRUITMENT */
+
+img {
+    width: 28px;
+    height: 28px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.recruitment {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.class label {
+    float: left;
+    clear: left;
+    margin-bottom: 8px;
+}
+
+.class p {
+    float: left;
+    clear: left;
+    padding: 3px 0 2px 0;
+}
+
+.class input {
+    float: right;
+    clear: right;
+    overflow: visible;
+    margin-bottom: -6px;
+    width: 25px;
+    border-color: #443;
+}
+.class {
+    overflow: hidden;
+    width: 12rem;
+    display: block;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+
